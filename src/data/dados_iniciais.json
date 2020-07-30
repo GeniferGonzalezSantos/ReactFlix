@@ -1,163 +1,163 @@
 {
   "categorias": [
     {
-      "titulo": "Front End",
-      "link": "https://www.alura.com.br/formacao-front-end",
-      "cor": "#6BD1FF",
+      "titulo": "Fermento Natural",
+      "link": "https://www.youtube.com/channel/UCmmh7hivO4CDXgwatlD1lEQ",
+      "cor": "#D99066",
       "link_extra": {
-        "text": "Formação de Front End na Alura",
-        "url": "https://www.alura.com.br/cursos-online-front-end"
+        "text": "Aprendendo a fazer pão de fermentação Natural",
+        "url": "https://www.youtube.com/channel/UCmmh7hivO4CDXgwatlD1lEQ"
       },
       "videos": [
         {
-          "titulo": "O que faz uma desenvolvedora front-end? #HipstersPontoTube",
-          "url": "https://www.youtube.com/watch?v=ZY3-MFxVdEw"
+          "titulo": "Conheça 38 vantagens do pão de fermentação natural",
+          "url": "https://www.youtube.com/watch?v=H84mJ9JDyXk"
         },
         {
-          "titulo": "SEO com React",
-          "url": "https://www.youtube.com/watch?v=c8mVlakBESE"
+          "titulo": "Criando Levain",
+          "url": "https://www.youtube.com/watch?v=UNgX-eT4umA"
         },
         {
-          "titulo": "Componentização com VanillaJS #AluraMais",
-          "url": "https://www.youtube.com/watch?v=LatCKpcOMak"
+          "titulo": "Entendendo o Levain",
+          "url": "https://www.youtube.com/watch?v=qyX_hdic1xo&t=460s"
         },
         {
-          "titulo": "Pare de chutar e aprenda a display: inline #01",
-          "url": "https://www.youtube.com/watch?v=5PS6ku8NzIE"
+          "titulo": "Mantendo o Levain",
+          "url": "https://www.youtube.com/watch?v=RM4m6n6R1L4&t=84s"
         },
         {
-          "titulo": "Template String: Interpolando strings com JavaScript #AluraMais",
-          "url": "https://www.youtube.com/watch?v=ORI_HTXaIw0"
+          "titulo": "Ciclo do Lavain",
+          "url": "https://www.youtube.com/watch?v=HdRi_gSwpWs"
         },
         {
-          "titulo": "Qual é a melhor linguagem de programação? #HipstersPontoTube",
-          "url": "https://www.youtube.com/watch?v=Uh-GNH-t89w"
+          "titulo": "Alimentação do Lavain",
+          "url": "https://www.youtube.com/watch?v=bHS9n7e32k4"
         },
         {
-          "titulo": "Novidades do Angular v9",
-          "url": "https://www.youtube.com/watch?v=34uHo7hFmG0"
+          "titulo": "Manter o Lavain vivo",
+          "url": "https://www.youtube.com/watch?v=_5MH5d75Go4"
         },
         {
-          "titulo": "Base para aprender os frameworks",
-          "url": "https://www.youtube.com/watch?v=QzDjdlF1BQI"
+          "titulo": "O que esperar do Levain a cada ativação?",
+          "url": "https://www.youtube.com/watch?v=gRcO5fRkCBQ"
         }        
       ]
     },
     {
-      "titulo": "Back End",
-      "cor": "#00C86F",
+      "titulo": "Infos Relevante",
+      "cor": "#733C1D",
       "link_extra": {
-        "text": "Cursos de Back End na Alura",
-        "url": "https://www.alura.com.br/cursos-online-programacao"
+        "text": "Importantes dicas para antes de começar o planejanto para fazer pão",
+        "url": "https://www.youtube.com/channel/UCmmh7hivO4CDXgwatlD1lEQ"
       },
       "videos": [
         {
-          "titulo": "PERCURSO em NÍVEL em ÁRVORE BINÁRIA | Estruturas de Dados #14",
-          "url": "https://www.youtube.com/watch?v=UOK7nS2E9xM"
+          "titulo": "Aprendendo a ler o rótulo da farinha",
+          "url": "https://www.youtube.com/watch?v=-Onkj9FtrQ4"
         },
         {
-          "titulo": "Coders4Tips - S01E04: GitHub CLI - Uma Nova Experiência no Github!",
-          "url": "https://www.youtube.com/watch?v=6o6-bKOZOEY"
+          "titulo": "Dicas sobre a temperatura na fermentação natural",
+          "url": "https://www.youtube.com/watch?v=3hUPRxltYDI&t=5s"
         },
         {
-          "titulo": "Programei 4 robôs que criam vídeos para mim no YouTube",
-          "url": "https://www.youtube.com/watch?v=kjhu1LEmRpY"
+          "titulo": "Quais as funções da água na receita de pão de fermentação natural",
+          "url": "https://www.youtube.com/watch?v=-sagkYME7Yg"
         },
         {
-          "titulo": "API: Dicionário do Programador",
-          "url": "https://www.youtube.com/watch?v=vGuqKIRWosk"
+          "titulo": "Instrumentos para assar o pão",
+          "url": "https://www.youtube.com/watch?v=7wCiJAYyNn8"
         }, 
         {
-          "titulo": "Usando Git Direito",
-          "url": "https://www.youtube.com/watch?v=6OokP-NE49k"
+          "titulo": "Porque desenvolver o glúten é importante",
+          "url": "https://www.youtube.com/watch?v=Q4IQfAMNGGs"
         }
       ]
     },
     {
-      "titulo": "Data Science e Inteligência Artificial",
-      "cor": "#9cd33b",
+      "titulo": "Fazendo o pão ",
+      "cor": "#D99066",
       "link_extra": {
-        "text": "Cursos de Data Science na Alura",
-        "url": "https://www.alura.com.br/formacao-data-science"
+        "text": "Todos os processos que a massa sofre para virar um belo pão",
+        "url": "https://www.youtube.com/channel/UCmmh7hivO4CDXgwatlD1lEQ"
       },
       "videos": [
         {
-          "titulo": "Teste de Turing",
-          "url": "https://www.youtube.com/watch?v=BaPGU4JWa34"
+          "titulo": "O que é a Autolise",
+          "url": "https://www.youtube.com/watch?v=GLkLdO1_c3I&t=612s"
         },
         {
-          "titulo": "O que é Data Science?",
-          "url": "https://www.youtube.com/watch?v=5b9Z8toVaAU&t=9s"
+          "titulo": "Processo até o final das dobras",
+          "url": "https://www.youtube.com/watch?v=U7z6P73r6eM"
         },
         {
-          "titulo": "Melhor forma de aprender Python",
-          "url": "https://www.youtube.com/watch?v=Gojqw9BQ5qY"
+          "titulo": "Primeira Fermentação",
+          "url": "https://www.youtube.com/watch?v=59pyZObPG6Y"
         },
         {
-          "titulo": "Como ingressar no mercado de Data Science?",
-          "url": "https://www.youtube.com/watch?v=gxyjGmOV540"
+          "titulo": "Segunda fermentação",
+          "url": "https://www.youtube.com/watch?v=td-pPKmp6sY&t=1011s"
         }
       ]
     },
     {
-      "titulo": "Aprendendo a aprender tecnologia",
-      "cor": "#6b5be2",
+      "titulo": "Assando o pão",
+      "cor": "#733C1D",
       "link_extra": {
-        "text": "Curso sobre aprendizado na Alura",
-        "url": "https://alura.com.br/curso-online-aprender-a-aprender-tecnicas-para-seu-autodesenvolvimento"
+        "text": "Como deve ser o processo antes e durante o assado",
+        "url": "https://www.youtube.com/channel/UCmmh7hivO4CDXgwatlD1lEQ"
       },
       "videos": [
         {
-          "titulo": "Como estudar melhor?",
-          "url": "https://www.youtube.com/watch?v=Is6c9KSGCbk&feature=youtu.be"
+          "titulo": "Como saber se a massa está pronta para assar",
+          "url": "https://www.youtube.com/watch?v=nYeyTtiOAIw"
         },
         {
-          "titulo": "Faculdade",
-          "url": "https://www.youtube.com/watch?v=jw06H8esyzQ&feature=youtu.be"
+          "titulo": "Temperatura para assar o pão",
+          "url": "https://www.youtube.com/watch?v=kvKc9lm_HCE"
         },
         {
-          "titulo": "Frameworks",
-          "url": "https://www.youtube.com/watch?v=QzDjdlF1BQI"
+          "titulo": "Pão que não cresce no forno",
+          "url": "https://www.youtube.com/watch?v=vJTAhH2vbk0"
         },
         {
-          "titulo": "A mágica do Aprendizado",
-          "url": "https://www.youtube.com/watch?v=oTEXzpfEpPY"
+          "titulo": "Corte da massa para crescer melhor no forno",
+          "url": "https://www.youtube.com/watch?v=sOQFtE8nnIg"
         },
         {
-          "titulo": "Como aprender a programar?",
-          "url": "https://www.youtube.com/watch?v=MwCx2qKdbDw&feature=youtu.be"
+          "titulo": "Preparação da massa pra entrar no forno",
+          "url": "https://www.youtube.com/watch?v=78OI25nDWKI&t=2003s"
         }
       ]
     },
     {
-      "titulo": "Filmes",
-      "cor": "orange",
+      "titulo": "Outros Canais",
+      "cor": "#D99066",
       "videos": [
         {
-          "titulo": "Lady Bird",
-          "url": "https://www.youtube.com/watch?v=tvSl39lvrYU"
+          "titulo": "Padeiro de Apartamento",
+          "url": "https://www.youtube.com/watch?v=07uqUZdjDXM&t=474s"
         },
         {
-          "titulo": "A cor púrpura",
-          "url": "https://www.youtube.com/watch?v=V3NFGsA8hX4"
+          "titulo": "Glútlen Morgen",
+          "url": "https://www.youtube.com/watch?v=vXu6nmdb-nY"
         },
         {
-          "titulo": "Bastardos Inglórios",
-          "url": "https://www.youtube.com/watch?v=w1O5LThfp7w"
+          "titulo": "Pão da casa",
+          "url": "https://www.youtube.com/watch?v=KCe85lhkfOg"
         },
         {
-          "titulo": "Pink Flamingos",
-          "url": "https://www.youtube.com/watch?v=szd3QOyf2to"
+          "titulo": "Pão de Fermentação Natural receita Bela Gil",
+          "url": "https://www.youtube.com/watch?v=bbv_P8bpvbg&t=230s"
         }
       ]
     },
     {
-      "titulo": "Fermenação",
-      "cor": "red",
+      "titulo": "Outas formas de Fermentar",
+      "cor": "#733C1D",
       "videos": [
         {
-          "titulo": "Pão de fermentação natural",
-          "url": "https://www.youtube.com/watch?v=qFUdM8Refiw&list=PL6acRdUvJtnAeCjI_BV_x3gSM18S9Nj9z&index=99"
+          "titulo": "Fermentação e o vinho",
+          "url": "https://www.youtube.com/watch?v=JxT0PEjirOA"
         },
         {
           "titulo": "Fermentação de Kefir",

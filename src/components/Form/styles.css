@@ -1,0 +1,14 @@
+fieldset {
+  border:none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ 
+}
+
+.btn-position {
+  display: flex;
+  flex-direction: row;
+}
+
+
