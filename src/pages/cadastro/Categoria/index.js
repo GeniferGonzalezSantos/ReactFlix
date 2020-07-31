@@ -1,22 +1,19 @@
 import React, { useState } from 'react';
-import PageDefault from '../../../components/PageDefault';
+import { Link } from 'react-router-dom';
+import PageDefault from '../../../components/PageDefault/index';
 import FormField from '../../../components/Form/components/Input';
 import Button from '../../../components/Form/components/ButtonForm';
 import TextArea from '../../../components/Form/components/TextArea';
 import '../../../components/Form/styles.css';
 
-import { Link } from 'react-router-dom';
-
 function CadastroCategoria() {
-
   const valoresIniciais = {
     nome: '',
     descricao: '',
     cor: '',
-  }
+  };
   const [categorias, setCategorias] = useState([]);
   const [values, setValues] = useState(valoresIniciais);
-
 
   function setValue(chave, valor) {
     setValues({
@@ -26,11 +23,11 @@ function CadastroCategoria() {
   }
 
   function showName(infosDoEvento) {
-    const { getAttribute, value } = infosDoEvento.target
     setValue(
-      getAttribute('name'),
-      value
+      infosDoEvento.target.getAttribute('name'),
+      infosDoEvento.target.value
     );
+  
   }
 
   return (
@@ -40,59 +37,57 @@ function CadastroCategoria() {
         event.preventDefault();
         setCategorias([
           ...categorias,
-          values
+          values,
         ]);
-        setValues({});
-      }}>
+        setValues(valoresIniciais);
+      }}
+      >
         <fieldset>
-
           <FormField
             label="Nome da Categoria"
-            name='nome'
+            name="nome"
             onChange={showName}
-            type='text'
+            type="text"
             value={values.nome}
           />
 
-          <TextArea type='text'  />
+          <TextArea type="text" />
 
-          <FormField 
+          <FormField
             label="Cor"
-            name='cor'
+            name="cor"
             onChange={showName}
-            type='color'
-            value={values.cor} />
+            type="color"
+            value={values.cor}
+          />
 
-          <FormField 
+          <FormField
             label="Código de segurança"
-            name='código de segurança'
+            name="código de segurança"
             onChange={showName}
-            type='text'
-            value={values.codigo} />
+            type="text"
+            value={values.codigo}
+          />
 
-            <Button>Salvar</Button>
+          <div className="btn-position">
+            <Button style={{ background: '#BF6E50' }}>Salvar</Button>
             <Button>Remover</Button>
-            
-         
+          </div>
+
         </fieldset>
       </form>
-
-      <ul >
-        {categorias.map((categoria, indice) => {
-          return (
-            <li key={`${categoria}${indice}`}>
-              {categoria.nome}
-            </li>
-          )
-        })}
+      <ul>
+        {categorias.map((categoria, indice) => (
+          <li key={`${categoria}${indice}`}>
+            {categoria.nome}
+          </li>
+        ))}
       </ul>
-
       <Link to="/">
         Ir para home
-    </Link>
+      </Link>
     </PageDefault>
-  )
-};
-
+  );
+}
 
 export default CadastroCategoria;

@@ -1,7 +1,8 @@
 import React from 'react';
 import styled from 'styled-components';
+import PropTypes from 'prop-types';
 
- const InputForm = styled.input`
+const InputForm = styled.input`
   background-color: var(--blackLighter);
   border: none;
   border-radius: 5px;
@@ -22,11 +23,18 @@ import styled from 'styled-components';
 }
 `;
 
-function FormField({ label, name, onChange, type, value }) {
+function FormField({
+  label, name, onChange, type, value,
+}) {
+  const fieldId = `id_${name}`;
+
   return (
     <div>
-      <label>
-        {label}: 
+      <label
+        htmlFor={fieldId}
+      >
+        {label}
+        :
         <InputForm
           type={type}
           value={value}
@@ -35,8 +43,21 @@ function FormField({ label, name, onChange, type, value }) {
         />
       </label>
     </div>
-  )
+  );
 }
 
-export default FormField;
+FormField.defaultProps = {
+  type: 'text',
+  value: '',
+  onChange: () => {},
+};
 
+FormField.propTypes = {
+  label: PropTypes.string.isRequired,
+  name: PropTypes.string.isRequired,
+  onChange: PropTypes.func,
+  type: PropTypes.string,
+  value: PropTypes.string,
+};
+
+export default FormField;

@@ -7,12 +7,12 @@ import Footer from '../../components/Footer';
 
 function Home() {
   return (
-    <div style={{ background: "#260801" }}>
+    <div style={{ background: '#260801' }}>
       <Menu />
       <BannerMain
         videoTitle={dadosIniciais.categorias[0].videos[0].titulo}
         url={dadosIniciais.categorias[0].videos[0].url}
-        videoDescription={ 'Nesse vídeo foi respondido diversas dúvidas sobre pães de fermentação natural, incluindo: Por que é importante saber sobre as vantagens nutricionais do pão de fermentação natural? O pão de fermentação natural é melhor pra saúde do que os pães fermentados com leveduras? Essas e muitas outras perguntas respondidas nesse vídeo por Anna Riccio.'}
+        videoDescription="Nesse vídeo foi respondido diversas dúvidas sobre pães de fermentação natural, incluindo: Por que é importante saber sobre as vantagens nutricionais do pão de fermentação natural? O pão de fermentação natural é melhor pra saúde do que os pães fermentados com leveduras? Essas e muitas outras perguntas respondidas nesse vídeo por Anna Riccio."
       />
 
       <Carousel
@@ -35,7 +35,6 @@ function Home() {
       <Carousel
         category={dadosIniciais.categorias[4]}
       />
-
 
       <Carousel
         category={dadosIniciais.categorias[5]}

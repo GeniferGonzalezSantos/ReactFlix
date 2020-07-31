@@ -23,18 +23,10 @@ const ButtonForm = styled.button`
 }
 `;
 
-ButtonForm.Position = styled.div`
-  display: flex;
-  flex-direction: row;
-  `;
-
-
 function Button({ children }) {
   return (
-    <ButtonForm.Position>
-        <ButtonForm>{ children }</ButtonForm> 
-    </ButtonForm.Position>
-  )
+    <ButtonForm>{ children }</ButtonForm>
+  );
 }
 
 export default Button;

@@ -13,7 +13,7 @@ const TableHead = () => {
   );
 }
 
-const TableBody = props => {
+const TableBody = (props) => {
   const valueInputForm = props.valueInput.map((el) => {
     return (
       <tr key={el}>

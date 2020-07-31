@@ -1,0 +1,21 @@
+{
+  "categorias": [
+    {
+      "id": 1,
+      "titulo": "Fermento Natural",
+      "cor": "#6BD1FF",
+      "link_extra": {
+        "text": "Aprendendo a fazer pão de fermentação Natural",
+        "url": "https://www.youtube.com/channel/UCmmh7hivO4CDXgwatlD1lEQ"
+      }
+    }
+   ],
+  "videos": [
+    {
+      "id": 1,
+      "categoriaId": 1,
+      "titulo": "Infos Relevante",
+      "url": "https://www.youtube.com/channel/UCmmh7hivO4CDXgwatlD1lEQ"
+    }
+  ]
+}
