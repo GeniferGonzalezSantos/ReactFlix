@@ -31,7 +31,7 @@ function CadastroCategoria() {
 
   useEffect(() => {
 
-    const URL_TOP = 'http://localhost:3000/cadastro/categoria';
+    const URL_TOP = 'http://localhost:8080/categorias';
       fetch(URL_TOP)
       .then(async (respostaDoServidor) => {
         const resposta = await respostaDoServidor.json();
