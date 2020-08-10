@@ -8,14 +8,232 @@
         "text": "Aprendendo a fazer pão de fermentação Natural",
         "url": "https://www.youtube.com/channel/UCmmh7hivO4CDXgwatlD1lEQ"
       }
+    },
+    {
+      "id": 2,
+      "titulo": "Indos Relevantes",
+      "cor": "#733C1D",
+      "link_extra": {
+        "text": "Importantes dicas para antes de começar o planejanto para fazer pão",
+        "url": "https://www.youtube.com/channel/UCmmh7hivO4CDXgwatlD1lEQ"
+      }
+    },
+    {
+      "id": 3,
+      "titulo": "Fazendo o pão",
+      "cor": "#D99066",
+      "link_extra": {
+        "text": "Todos os processos que a massa sofre para virar um belo pão",
+        "url": "https://www.youtube.com/channel/UCmmh7hivO4CDXgwatlD1lEQ"
+      }
+    },
+    {
+      "id": 4,
+      "titulo": "Assando o pão",
+      "cor": "#733C1D",
+      "link_extra": {
+        "text": "Como deve ser o processo antes e durante o assado",
+        "url": "https://www.youtube.com/channel/UCmmh7hivO4CDXgwatlD1lEQ"
+      }
+    },
+    {
+      "id": 5,
+      "titulo": "Outros Canais",
+      "cor": "#D99066"
+    },
+    {
+      "id": 6,
+      "titulo": "Outas formas de Fermentar",
+      "cor": "#733C1D"
     }
    ],
+   
   "videos": [
+    {
+      "id": 1,
+      "categoriaId": 1,
+      "titulo": "Conheça 38 vantagens do pão de fermentação natural",
+      "url": "https://www.youtube.com/watch?v=H84mJ9JDyXk"
+    },
+    {
+      "id": 1,
+      "categoriaId": 1,
+      "titulo": "Criando Levain",
+      "url": "https://www.youtube.com/watch?v=UNgX-eT4umA"
+    },
+    {
+      "id": 1,
+      "categoriaId": 1,
+      "titulo": "Entendendo o Levain",
+      "url": "https://www.youtube.com/watch?v=qyX_hdic1xo&t=460s"
+    },
+    {
+      "id": 1,
+      "categoriaId": 1,
+      "titulo": "Mantendo o Levain",
+      "url": "https://www.youtube.com/watch?v=RM4m6n6R1L4&t=84s"
+    },
+    {
+      "id": 1,
+      "categoriaId": 1,
+      "titulo": "Ciclo do Lavain",
+      "url": "https://www.youtube.com/watch?v=HdRi_gSwpWs"
+    },
     {
       "id": 1,
       "categoriaId": 1,
       "titulo": "Infos Relevante",
       "url": "https://www.youtube.com/channel/UCmmh7hivO4CDXgwatlD1lEQ"
+    },
+    {
+      "id": 1,
+      "categoriaId": 1,
+      "titulo": "Alimentação do Lavain",
+      "url": "https://www.youtube.com/watch?v=bHS9n7e32k4"
+    },
+    {
+      "id": 1,
+      "categoriaId": 1,
+      "titulo": "Manter o Lavain vivo",
+      "url": "https://www.youtube.com/watch?v=_5MH5d75Go4"
+    },
+    {
+      "id": 1,
+      "categoriaId": 1,
+      "titulo": "O que esperar do Levain a cada ativação?",
+      "url": "https://www.youtube.com/watch?v=gRcO5fRkCBQ"
+    },
+    {
+      "id": 2,
+      "categoriaId": 2,
+      "titulo": "Aprendendo a ler o rótulo da farinha",
+      "url": "https://www.youtube.com/watch?v=-Onkj9FtrQ4"
+    },
+    {
+      "id": 2,
+      "categoriaId": 2,
+      "titulo": "Dicas sobre a temperatura na fermentação natural",
+      "url": "https://www.youtube.com/watch?v=3hUPRxltYDI&t=5s"
+    },
+    {
+      "id": 2,
+      "categoriaId": 2,
+      "titulo": "Quais as funções da água na receita de pão de fermentação natural",
+      "url": "https://www.youtube.com/watch?v=-sagkYME7Yg"
+    },
+    {
+      "id": 2,
+      "categoriaId": 2,
+      "titulo": "Instrumentos para assar o pão",
+      "url": "https://www.youtube.com/watch?v=7wCiJAYyNn8"
+    },
+    {
+      "id": 2,
+      "categoriaId": 2,
+      "titulo": "Porque desenvolver o glúten é importante",
+      "url": "https://www.youtube.com/watch?v=Q4IQfAMNGGs"
+    },
+    {
+      "id": 3,
+      "categoriaId": 3,
+      "titulo": "O que é a Autolise",
+      "url": "https://www.youtube.com/watch?v=GLkLdO1_c3I&t=612s"
+    },
+    {
+      "id": 3,
+      "categoriaId": 3,
+      "titulo": "Processo até o final das dobras",
+      "url": "https://www.youtube.com/watch?v=U7z6P73r6eM"
+    },
+    {
+      "id": 3,
+      "categoriaId": 3,
+      "titulo": "Primeira Fermentação",
+      "url": "https://www.youtube.com/watch?v=59pyZObPG6Y"
+    },
+    {
+      "id": 3,
+      "categoriaId": 3,
+      "titulo": "Segunda fermentação",
+      "url": "https://www.youtube.com/watch?v=td-pPKmp6sY&t=1011s"
+    },
+    {
+      "id": 4,
+      "categoriaId": 4,
+      "titulo": "Como saber se a massa está pronta para assar",
+      "url": "https://www.youtube.com/watch?v=td-pPKmp6sY&t=1011s"
+    },
+    {
+      "id": 4,
+      "categoriaId": 4,
+      "titulo": "Temperatura para assar o pão",
+      "url": "https://www.youtube.com/watch?v=kvKc9lm_HCE"
+    },
+    {
+      "id": 4,
+      "categoriaId": 4,
+      "titulo": "Pão que não cresce no forno",
+      "url": "https://www.youtube.com/watch?v=vJTAhH2vbk0"
+    },
+    {
+      "id": 4,
+      "categoriaId": 4,
+      "titulo": "Corte da massa para crescer melhor no forno",
+      "url": "https://www.youtube.com/watch?v=sOQFtE8nnIg"
+    },
+    {
+      "id": 4,
+      "categoriaId": 4,
+      "titulo": "Preparação da massa pra entrar no forno",
+      "url": "https://www.youtube.com/watch?v=78OI25nDWKI&t=2003s"
+    },
+    {
+      "id": 5,
+      "categoriaId": 5,
+      "titulo": "Padeiro de Apartamento",
+      "url": "https://www.youtube.com/watch?v=07uqUZdjDXM&t=474s"
+    },
+    {
+      "id": 5,
+      "categoriaId": 5,
+      "titulo": "Glútlen Morgen",
+      "url": "https://www.youtube.com/watch?v=vXu6nmdb-nY"
+    },
+    {
+      "id": 5,
+      "categoriaId": 5,
+      "titulo": "Pão da casa",
+      "url": "https://www.youtube.com/watch?v=KCe85lhkfOg"
+    },
+    {
+      "id": 5,
+      "categoriaId": 5,
+      "titulo": "Pão de Fermentação Natural receita Bela Gil",
+      "url": "https://www.youtube.com/watch?v=bbv_P8bpvbg&t=230s"
+    },
+    {
+      "id": 6,
+      "categoriaId": 6,
+      "titulo": "Fermentação e o vinho",
+      "url": "https://www.youtube.com/watch?v=JxT0PEjirOA"
+    },
+    {
+      "id": 6,
+      "categoriaId": 6,
+      "titulo": "Fermentação de Kefir",
+      "url": "https://www.youtube.com/watch?v=LZ9X_Qg_STw"
+    },
+    {
+      "id": 6,
+      "categoriaId": 6,
+      "titulo": "Fermentação de Kombucha",
+      "url": "https://www.youtube.com/watch?v=JiImF7G96IU"
+    },
+    {
+      "id": 6,
+      "categoriaId": 6,
+      "titulo": "Cerveja",
+      "url": "https://www.youtube.com/watch?v=FoG4OjJGxp8"
     }
   ]
 }

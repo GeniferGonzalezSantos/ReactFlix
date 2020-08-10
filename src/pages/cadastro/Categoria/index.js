@@ -4,6 +4,7 @@ import PageDefault from '../../../components/PageDefault/index';
 import FormField from '../../../components/Form/components/Input';
 import Button from '../../../components/Form/components/ButtonForm';
 import TextArea from '../../../components/Form/components/TextArea';
+import useForm from '../../../hooks/useForm';
 import '../../../components/Form/styles.css';
 
 function CadastroCategoria() {
@@ -12,27 +13,18 @@ function CadastroCategoria() {
     descricao: '',
     cor: '',
   };
+  
+  const { showName, values, clearForm } = useForm(valoresIniciais);
+
   const [categorias, setCategorias] = useState([]);
-  const [values, setValues] = useState(valoresIniciais);
+  
 
-  function setValue(chave, valor) {
-    setValues({
-      ...values,
-      [chave]: valor,
-    });
-  }
-
-  function showName(infosDoEvento) {
-    setValue(
-      infosDoEvento.target.getAttribute('name'),
-      infosDoEvento.target.value
-    );
-  }
 
   useEffect(() => {
 
     const URL_TOP = 'http://localhost:8080/categorias';
-      fetch(URL_TOP)
+      
+    fetch(URL_TOP)
       .then(async (respostaDoServidor) => {
         const resposta = await respostaDoServidor.json();
         setCategorias([
@@ -43,20 +35,24 @@ function CadastroCategoria() {
 
   return (
     <PageDefault>
-      <h1>Nova Categoria</h1>
-      <form onSubmit={function handleSubmit(event) {
-        event.preventDefault();
+      <h1>
+        Cadastro de Categoria
+        {values.nome}
+      </h1>
+
+      <form onSubmit={function showName(e) {
+        e.preventDefault();
         setCategorias([
           ...categorias,
           values,
         ]);
-        setValues(valoresIniciais);
+        clearForm();
       }}
       >
         <fieldset>
           <FormField
             label="Nome da Categoria"
-            name="nome"
+            name="titulo"
             onChange={showName}
             type="text"
             value={values.nome}
@@ -88,9 +84,9 @@ function CadastroCategoria() {
         </fieldset>
       </form>
       <ul>
-        {categorias.map((categoria, indice) => (
-          <li key={`${categoria}${indice}`}>
-            {categoria.nome}
+        {categorias.map((categoria) => (
+          <li key={`${categoria.titulo}`}>
+            {categoria.titulo}
           </li>
         ))}
       </ul>
