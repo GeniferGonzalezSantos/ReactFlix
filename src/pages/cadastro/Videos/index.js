@@ -15,9 +15,9 @@ function CadastroVideo() {
   const [categorias, setCategorias] = useState([]);
   const categoryTitles = categorias.map(({ titulo }) => titulo);
   const { showName, values } = useForm({
-    titulo: 'Video padrão',
-    url: 'https://www.youtube.com/watch?v=jOAU81jdi-c',
-    categoria: 'Fermento Natural',
+    titulo: '',
+    url: '',
+    categoria: '',
   });
 
   useEffect(() => {

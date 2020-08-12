@@ -15,6 +15,10 @@ fieldset {
   flex-direction: row;
 }
 
+.btn-color {
+  background-color: #BF6E50;
+}
+
 .link {
   margin: 20px;
   text-align: right;

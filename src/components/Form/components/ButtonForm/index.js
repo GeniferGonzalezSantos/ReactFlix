@@ -1,5 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
+import PropTypes from 'prop-types';
+
 
 const ButtonForm = styled.button`
   background-color: var(--blackLighter);
@@ -23,13 +25,26 @@ const ButtonForm = styled.button`
 }
 `;
 
-function Button({ children }) {
+
+function Button({
+  children, className,
+}) {
   return (
-    <ButtonForm>
+    <ButtonForm className={className}>
       {children}
     </ButtonForm>
   );
 }
+
+Button.defaultProps = {
+  className: '',
+  children: ''
+};
+
+Button.propTypes = {
+  className: PropTypes.string,
+  children: PropTypes.string
+};
 
 export default Button;
 

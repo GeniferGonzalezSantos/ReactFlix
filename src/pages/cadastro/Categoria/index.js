@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import PageDefault from '../../../components/PageDefault/index';
 import FormField from '../../../components/Form/components/Input';
-import Button from '../../../components/Form/components/ButtonForm';
+import Button  from '../../../components/Form/components/ButtonForm';
 import TextArea from '../../../components/Form/components/TextArea';
 import useForm from '../../../hooks/useForm';
 import '../../../components/Form/styles.css';
@@ -72,7 +72,7 @@ function CadastroCategoria() {
           />
 
           <div className="btn-position">
-            <Button style={{ background: '#BF6E50' }}>Salvar</Button>
+            <Button>Salvar</Button>
             <Button>Remover</Button>
           </div>
 

@@ -46,8 +46,7 @@
       "titulo": "Outas formas de fermentar",
       "cor": "#733C1D"
     }
-   ],
-   
+  ],
   "videos": [
     {
       "id": 1,
@@ -228,6 +227,12 @@
       "categoriaId": 6,
       "titulo": "Cerveja",
       "url": "https://www.youtube.com/watch?v=FoG4OjJGxp8"
+    },
+    {
+      "titulo": "sdas",
+      "url": "https://www.youtube.com/watch?v=SWm1uvCRfvA&list=RDk4V3Mo61fJM&index=3",
+      "categoriaId": 1,
+      "id": 7
     }
   ]
 }

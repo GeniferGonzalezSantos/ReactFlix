@@ -20,7 +20,6 @@ const Button = styled(Link)`
   &:focus {
   opacity: .5;
 
- 
 }
 `;
 
