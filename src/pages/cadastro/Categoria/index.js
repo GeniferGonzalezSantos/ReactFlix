@@ -8,22 +8,23 @@ import useForm from '../../../hooks/useForm';
 import '../../../components/Form/styles.css';
 
 function CadastroCategoria() {
+
   const valoresIniciais = {
     nome: '',
     descricao: '',
     cor: '',
   };
-  
+
   const { showName, values, clearForm } = useForm(valoresIniciais);
 
   const [categorias, setCategorias] = useState([]);
-  
+
 
 
   useEffect(() => {
 
     const URL_TOP = 'http://localhost:8080/categorias';
-      
+
     fetch(URL_TOP)
       .then(async (respostaDoServidor) => {
         const resposta = await respostaDoServidor.json();
@@ -31,13 +32,14 @@ function CadastroCategoria() {
           ...resposta,
         ]);
       });
-  },[]);
+  }, []);
 
   return (
+
     <PageDefault>
-      <h1>
+
+      <h1 className="title">
         Cadastro de Categoria
-        {values.nome}
       </h1>
 
       <form onSubmit={function showName(e) {
@@ -50,9 +52,10 @@ function CadastroCategoria() {
       }}
       >
         <fieldset>
+
           <FormField
             label="Nome da Categoria"
-            name="titulo"
+            name="nome"
             onChange={showName}
             type="text"
             value={values.nome}
@@ -68,14 +71,6 @@ function CadastroCategoria() {
             value={values.cor}
           />
 
-          <FormField
-            label="Código de segurança"
-            name="código de segurança"
-            onChange={showName}
-            type="text"
-            value={values.codigo}
-          />
-
           <div className="btn-position">
             <Button style={{ background: '#BF6E50' }}>Salvar</Button>
             <Button>Remover</Button>
@@ -83,6 +78,7 @@ function CadastroCategoria() {
 
         </fieldset>
       </form>
+
       <ul>
         {categorias.map((categoria) => (
           <li key={`${categoria.titulo}`}>
@@ -90,9 +86,13 @@ function CadastroCategoria() {
           </li>
         ))}
       </ul>
-      <Link to="/">
-        Ir para home
+
+      <div className='link'>
+        <Link to="/">
+          Ir para home
       </Link>
+      </div>
+
     </PageDefault>
   );
 }

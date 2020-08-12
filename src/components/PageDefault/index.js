@@ -9,11 +9,7 @@ background-color: var(--black);
 color: var(--white);
 flex: 1;
 padding: 50px 5% 0 5%;
-
-
-
 `;
-
 
 function PageDefault({ children }) {
 
@@ -26,7 +22,6 @@ function PageDefault({ children }) {
       <Footer />
     </>
   )
-
 }
 
 export default PageDefault;

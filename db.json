@@ -2,8 +2,8 @@
   "categorias": [
     {
       "id": 1,
-      "titulo": "Fermento Natural",
-      "cor": "#6BD1FF",
+      "titulo": "Fermento natural",
+      "cor": "#D99066",
       "link_extra": {
         "text": "Aprendendo a fazer pão de fermentação Natural",
         "url": "https://www.youtube.com/channel/UCmmh7hivO4CDXgwatlD1lEQ"
@@ -11,7 +11,7 @@
     },
     {
       "id": 2,
-      "titulo": "Indos Relevantes",
+      "titulo": "Infos relevantes",
       "cor": "#733C1D",
       "link_extra": {
         "text": "Importantes dicas para antes de começar o planejanto para fazer pão",
@@ -38,12 +38,12 @@
     },
     {
       "id": 5,
-      "titulo": "Outros Canais",
+      "titulo": "Outros canais",
       "cor": "#D99066"
     },
     {
       "id": 6,
-      "titulo": "Outas formas de Fermentar",
+      "titulo": "Outas formas de fermentar",
       "cor": "#733C1D"
     }
    ],
@@ -78,12 +78,6 @@
       "categoriaId": 1,
       "titulo": "Ciclo do Lavain",
       "url": "https://www.youtube.com/watch?v=HdRi_gSwpWs"
-    },
-    {
-      "id": 1,
-      "categoriaId": 1,
-      "titulo": "Infos Relevante",
-      "url": "https://www.youtube.com/channel/UCmmh7hivO4CDXgwatlD1lEQ"
     },
     {
       "id": 1,

@@ -3,18 +3,21 @@ import { Link, useHistory } from 'react-router-dom';
 import PageDefault from '../../../components/PageDefault';
 import useForm from '../../../hooks/useForm';
 import FormField from '../../../components/Form/components/Input';
-import Button from '../../../components/Button';
+import Button from '../../../components/Form/components/ButtonForm';
 import videosRepository from '../../../repositories/videos';
 import categoriasRepository from '../../../repositories/categorias';
+import '../../../components/Form/styles.css';
+
 
 function CadastroVideo() {
+
   const history = useHistory();
   const [categorias, setCategorias] = useState([]);
   const categoryTitles = categorias.map(({ titulo }) => titulo);
   const { showName, values } = useForm({
     titulo: 'Video padrão',
     url: 'https://www.youtube.com/watch?v=jOAU81jdi-c',
-    categoria: 'Front End',
+    categoria: 'Fermento Natural',
   });
 
   useEffect(() => {
@@ -27,11 +30,13 @@ function CadastroVideo() {
 
   return (
     <PageDefault>
-      <h1>Cadastro de Video</h1>
+
+      <h1 className="title">
+        Cadastro de Vídeo
+      </h1>
 
       <form onSubmit={(event) => {
         event.preventDefault();
-        // alert('Video Cadastrado com sucesso!!!1!');
 
         const categoriaEscolhida = categorias.find((categoria) => {
           return categoria.titulo === values.categoria;
@@ -48,39 +53,43 @@ function CadastroVideo() {
           });
       }}
       >
-        <FormField
-          label="Título do Vídeo"
-          name="titulo"
-          value={values.titulo}
-          onChange={showName}
-        />
+        <fieldset>
 
-        <FormField
-          label="URL"
-          name="url"
-          value={values.url}
-          onChange={showName}
-        />
+          <FormField
+            label="Título do Vídeo"
+            name="titulo"
+            value={values.titulo}
+            onChange={showName}
+          />
 
-        <FormField
-          label="Categoria"
-          name="categoria"
-          value={values.categoria}
-          onChange={showName}
-          suggestions={categoryTitles}
-        />
+          <FormField
+            label="URL"
+            name="url"
+            value={values.url}
+            onChange={showName}
+          />
 
-        <Button type="submit">
-          Cadastrar
-        </Button>
+          <FormField
+            label="Categoria"
+            name="categoria"
+            value={values.categoria}
+            onChange={showName}
+            suggestions={categoryTitles}
+          />
+
+          <div className="btn-position">
+            <Button>Cadastrar</Button>
+          </div>
+
+        </fieldset>
       </form>
 
-      <br />
-      <br />
+      <div className="link">
+        <Link to="/cadastro/categoria" >
+          Cadastrar Categoria
+        </Link>
+      </div>
 
-      <Link to="/cadastro/categoria">
-        Cadastrar Categoria
-      </Link>
     </PageDefault>
   );
 }

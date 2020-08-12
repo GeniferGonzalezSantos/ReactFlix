@@ -1,3 +1,7 @@
+.title {
+  margin:15px;
+}
+
 fieldset {
   border:none;
   display: flex;
@@ -11,4 +15,7 @@ fieldset {
   flex-direction: row;
 }
 
-
+.link {
+  margin: 20px;
+  text-align: right;
+}

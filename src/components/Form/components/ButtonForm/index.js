@@ -9,7 +9,7 @@ const ButtonForm = styled.button`
   cursor: pointer;
   font-size: 16px;
   font-style: normal;;
-  margin:10px;
+  margin: 0px 10px 10px 0px;
   padding: 16px 10px;
   text-decoration: none;
   text-align: center;
@@ -25,7 +25,9 @@ const ButtonForm = styled.button`
 
 function Button({ children }) {
   return (
-    <ButtonForm>{ children }</ButtonForm>
+    <ButtonForm>
+      {children}
+    </ButtonForm>
   );
 }
 

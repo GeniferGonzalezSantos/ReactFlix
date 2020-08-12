@@ -1,7 +1,7 @@
 {
   "categorias": [
     {
-      "titulo": "Fermento Natural",
+      "titulo": "Fermento natural",
       "link": "https://www.youtube.com/channel/UCmmh7hivO4CDXgwatlD1lEQ",
       "cor": "#D99066",
       "link_extra": {
@@ -44,7 +44,7 @@
       ]
     },
     {
-      "titulo": "Infos Relevante",
+      "titulo": "Infos relevante",
       "cor": "#733C1D",
       "link_extra": {
         "text": "Importantes dicas para antes de começar o planejanto para fazer pão",
@@ -130,7 +130,7 @@
       ]
     },
     {
-      "titulo": "Outros Canais",
+      "titulo": "Outros canais",
       "cor": "#D99066",
       "videos": [
         {
@@ -152,7 +152,7 @@
       ]
     },
     {
-      "titulo": "Outas formas de Fermentar",
+      "titulo": "Outas formas de fermentar",
       "cor": "#733C1D",
       "videos": [
         {
